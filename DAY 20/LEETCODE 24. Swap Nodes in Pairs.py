@@ -5,8 +5,6 @@
 #         self.next = next
 class Solution:
     def swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        if not head:
-            return None
         
         def swap2(head):
             if head==None:
@@ -25,6 +23,4 @@ class Solution:
                 return b
                 
             
-        mm = swap2(head)
-
-        return mm
+        return swap2(head)
