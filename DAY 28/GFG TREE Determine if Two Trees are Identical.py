@@ -18,5 +18,6 @@ class Solution:
                 if self.isIdentical(root1.left, root2.left):
                     if self.isIdentical(root1.right, root2.right):
                         return True
+            return False
         else:
             return False
